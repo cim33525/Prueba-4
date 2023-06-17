@@ -1,10 +1,6 @@
 import json
 proveedores = list ()
 
-from rich import print
-
-print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:", locals())
-
 def mostrar_bienvenida_admin():
     mensaje = "********* 🔓 Bienvenido al modo Administrador 🔓 *********\nTe mostramos todo lo que podés hacer desde la app de tu consorcio, sin moverte de donde estés. Selecciona tu opción:\n"
     mensaje += "[1] Gestion de Usuarios\n"
